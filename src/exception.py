@@ -1,6 +1,7 @@
 import sys
 import os
 from dataclasses import dataclass
+from src.logger import logging
 @dataclass
 class user_exception :
     def show_exception (self) :
@@ -16,7 +17,7 @@ if __name__=='__main__' :
         a=2/0
         print(a)
     except :
-        print(exception.show_exception())
+        logging.info(exception.show_exception())
 
 
 
