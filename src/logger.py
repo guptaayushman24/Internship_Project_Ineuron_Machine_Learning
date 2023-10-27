@@ -2,8 +2,6 @@ import sys
 import logging
 import os
 from datetime import datetime
-sys.path.append('C:\\Users\\gupta\\OneDrive\\Desktop\\End to End ML Project-2')
-
 LOG_FILE = f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log"
 
 log_path = os.path.join(os.getcwd(),"logs",LOG_FILE)

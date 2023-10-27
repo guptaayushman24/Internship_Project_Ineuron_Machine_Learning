@@ -2,5 +2,6 @@ panda
 numpy
 seaborn
 matplotlib
-sklearn
+scikit-learn
 xgboost
+cassandra-driver

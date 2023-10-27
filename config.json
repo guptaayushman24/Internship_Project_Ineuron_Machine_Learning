@@ -1,0 +1,19 @@
+{
+  "host": "dd15b6f4-2f0d-4789-87ab-e72655e9345f-asia-south1.db.astra.datastax.com",
+  "port": 29080,
+  "cql_port": 29042,
+  "keyspace": "fraud_dection_1",
+  "localDC": "asia-south1",
+  "caCertLocation": "./ca.crt",
+  "keyLocation": "./key",
+  "certLocation": "./cert",
+  "keyStoreLocation": "./identity.jks",
+  "keyStorePassword": "e65qI1Arh0JGLSb3j",
+  "trustStoreLocation": "./trustStore.jks",
+  "trustStorePassword": "NUbDyGZ69K487LxJs",
+  "csvLocation": "./data",
+  "pfxCertPassword": "6wHf9j2UKo4YsA1pu",
+  "client_id":"GsIKIayRRzfCGWaBAYHAcTpg",
+  "client_secret":"azhx9sD0Is08n2JxqDSRPwMZMh.vUDU7K5OLXN9t3RvH0ySJX.n0+5Zb.5yRc5wofeanq-9qfGkCU8YrywdG4Z9EZZguvsRi3XAoEhkW_A447aLeBplAYIZMafnPCO9.",
+  "token":"AstraCS:GsIKIayRRzfCGWaBAYHAcTpg:b952d622d5b7df867732d03f6eb124ada2d21de00c5a2e921964dcff8f8416c2"
+}
