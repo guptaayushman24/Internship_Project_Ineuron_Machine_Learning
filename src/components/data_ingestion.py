@@ -34,6 +34,8 @@ try :
             cluster = Cluster(cloud=cloud_config, auth_provider=auth_provider)
             session = cluster.connect()
 
+            query = "SELECT * FROM fraud_dection_1.your_table WHERE some_condition = 'some_value';"
+
             row = session.execute("select release_version from system.local").one()
             if row :
                 print(row[0])
